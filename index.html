@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Minesweeper</title>
+		<meta charset='UTF-8'/>
+		<link rel='stylesheet' type='text/css' href='style.css'>
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700'>
+		<script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+        <script src='ui.js'></script>
+		<script src='minesweeper.js'></script>
+	</head>
+	<body>
+        <div id='main'>
+            <div id='title'>Minesweeper</div>
+            <table id='panel'>
+                <tr>
+                    <td>Difficulty:</td>
+                    <td>
+                        <select id='difficulty'>
+                            <option value='0'>Beginner</option>
+                            <option value='1'>Intermediate</option>
+                            <option value='2'>Expert</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rows:</td><td><input id='rows' type='number' value='8' min='5' max='30' /></td>
+                </tr>
+                <tr>
+                    <td>Columns:</td><td><input id='columns' type='number' value='8' min='5' max='30' /></td>
+                </tr>
+                <tr>
+                    <td>Mines:</td><td><input id='mines' type='number' value='10' min='1' max='900' /></td>
+                </tr>
+                <tr>
+                    <td colspan='2'><input id='newgame' type='button' value='New Game' /></td>
+                </tr>
+            </table>
+            <div id='status'></div>
+            <div id='game'></div>
+        </div>
+	</body>
+</html>

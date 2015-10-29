@@ -1,0 +1,111 @@
+body
+{
+	font-family: Open Sans;
+    color: #333;
+	margin: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* ========== UI ========== */
+#title
+{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+#panel
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+#panel input, #panel select
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+#status
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+/* ========== GAME ========== */
+#grid
+{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.cell
+{
+    background: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #CCC;
+    cursor: default;
+}
+.hidden
+{
+    background: #DDD;
+}
+.flag
+{
+    background: #DDD url("images/flag.png") no-repeat center;
+}
+.mine
+{
+    background: #C11 url("images/mine.png") no-repeat center;
+}
+
+
+.text1
+{
+    color: #16C;
+}
+.text2
+{
+    color: #6C1;
+}
+.text3
+{
+    color: #C11;
+}
+.text4
+{
+    color: #11C;
+}
+.text5
+{
+    color: #C61;
+}
+.text6
+{
+    color: #1CC;
+}
+.text7
+{
+    color: #111;
+}
+.text8
+{
+    color: #666;
+}
